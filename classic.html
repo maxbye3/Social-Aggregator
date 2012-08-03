@@ -1,0 +1,25 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Classic Example</title>
+<script language="javascript" type="text/javascript">
+var MyJavascriptVariable = "Megan Foxx";
+
+function SetJsValue()
+{
+ document.classic_form.jsvalue.value = MyJavascriptVariable;
+}
+
+</script>
+</head>
+
+<body>
+        
+        
+<form action="action.php" method="post" enctype="application/x-www-form-urlencoded" name="classic_form" id="classic_form">
+    <input type="hidden" name="jsvalue" id="jsvalue" value="javascript:MyJavascriptVariable.toString()" />
+    <input type="submit" name="submit" id="submit" value="Submit" onclick="SetJsValue();" />
+</form>
+</body>
+</html>

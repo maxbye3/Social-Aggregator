@@ -1,0 +1,175 @@
+
+* { margin: 0; padding: 0; }
+body { 
+	font: 14px Georgia, Serif;
+    background: #FFFFFF;
+}
+
+a { 
+	outline: 0; 
+    p  { background-color: #FFFFFF; } 
+}
+img, a img { 
+	border: 0; 
+}
+
+h1 { 
+	font-weight: normal; 
+}
+h2 { 
+	font: bold 32px Sans-Serif;
+	margin: 0 0 10px 0; 
+    background: #FFFFFF;
+}
+
+table,td,th
+{
+
+
+}
+table
+{
+margin-left:auto; 
+margin-right:auto;
+table-layout: fixed;
+width: 80%
+}
+
+
+
+th, td
+{
+
+height:10px;
+}
+
+
+#spotify_header { 
+	width: 260px; 
+	margin: 0 0 0 20%; 
+	padding: 1.2%; 
+}
+
+
+
+#spotify { 
+	width: 260px; 
+	margin: 0 0 0 20%; 
+	padding: 1.2%; 
+	background: #000000;
+	border: 5px groove #999999;
+}
+
+#twitter_header { 
+	width: 420px; 
+	margin: 0 0 0 7.5%; 
+	padding: 1.2%; 
+}
+
+#tweets { 
+	width: 430px; 
+	margin: 0 0 0 7.5%; 
+	 
+	background: #000000;
+	border: 5px groove #999999;
+}
+
+#instagram_header { 
+	width: 307px; 
+	margin: 0 0 0 10%; 
+	padding: 1.2%; 
+}
+
+#instagram { 
+	width: 307px; 
+	margin: 0 0 0 10%; 
+	padding: 1.2%; 
+	background: #000000;
+	border: 5px groove #999999;
+}
+
+#flickr_header { 
+	width: 300px; 
+	margin: 0 0 0 15%; 
+	padding: 5px; 
+}
+
+#flickr0, #flickr1, #flickr2 { 
+	width: 300px; 
+	margin: 0 0 0 15%; 
+	padding: 5px; 
+	background: #000000;
+	border: 5px groove #999999;
+}
+
+#youtube_header { 
+	width: 320px; 
+	margin: 0 0 0 20%; 
+	padding: 1.2%; 
+}
+
+#video0, #video1, #video2 { 
+	width: 320px; 
+	margin: 0 0 0 20%; 
+	padding: 1.2%; 
+	background: #000000;
+	border: 5px groove #999999;
+}
+
+
+#spotify_backend {
+    width: 320px; 
+	margin: 0 2% 0 0; 
+	padding: 0;
+	float: left; 
+	background: #fff7cc;
+	border: 1px groove #ecd869;
+}
+
+#flickr img, #spotify img, #twitter img { width: 100px; margin: 10px; }
+
+.tweet { 
+	padding: 10px; 
+	background: white;
+}
+
+.tweet img{
+	border: 3px groove #000000;
+}
+
+.tweet-left img{
+	border: 2px solid #000000;
+
+#testdiv {width:100px; margin:0 auto; border:1px groove #ccc; padding:20px 25px}
+
+#tinybox {position:absolute; display:none; padding:10px; background:#fff url(images/preload.gif) no-repeat 50% 50%; border:10px groove #e3e3e3; z-index:2000}
+#tinymask {position:absolute; display:none; top:0; left:0; height:100%; width:20%; background:#000; z-index:200}
+#tinycontent {background:#fff}
+
+.button {
+width: 480px;
+margin: 0 0 0 7.5%; 
+padding:8px 10px 9px; 
+border:1px groove #ccc; background:#222222; 
+cursor:pointer}
+.button:hover {
+	border:3px groove #bbb; 
+	background:#444444}
+	
+#viddy_header{	
+width: 310px;
+margin: 0 0 0 20%; 
+padding:8px 10px 9px; 
+}
+
+.butVid {
+width: 310px;
+margin: 0 0 0 20%; 
+padding:8px 10px 9px; 
+border:1px groove #ccc; background:#222222; 
+cursor:pointer}
+.butVid:hover {
+	border:3px groove #bbb; 
+	background:#444444}
+
+
